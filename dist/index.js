@@ -1,4 +1,4 @@
-"use strict";
+
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = function (d, b) {
         extendStatics = Object.setPrototypeOf ||
@@ -31,7 +31,7 @@ var piece_1 = require("./avatar/piece");
 var AvatarComponent = /** @class */ (function (_super) {
     __extends(AvatarComponent, _super);
     function AvatarComponent() {
-        var _this = _super !== null && _super.apply(this, arguments) || this;
+        var _this = ((_super !== null && _super.apply(this, arguments)) || this);
         _this.optionContext = new options_1.OptionContext(options_1.allOptions);
         return _this;
     }
@@ -69,7 +69,7 @@ exports.default = AvatarComponent;
 var Piece = /** @class */ (function (_super) {
     __extends(Piece, _super);
     function Piece() {
-        var _this = _super !== null && _super.apply(this, arguments) || this;
+        var _this = ((_super !== null && _super.apply(this, arguments)) || this);
         _this.optionContext = new options_1.OptionContext(options_1.allOptions);
         return _this;
     }

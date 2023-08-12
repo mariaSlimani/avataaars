@@ -1,4 +1,4 @@
-"use strict";
+
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = function (d, b) {
         extendStatics = Object.setPrototypeOf ||
@@ -28,7 +28,7 @@ function getComponentOptionValue(component) {
 var Selector = /** @class */ (function (_super) {
     __extends(Selector, _super);
     function Selector() {
-        var _this = _super !== null && _super.apply(this, arguments) || this;
+        var _this = ((_super !== null && _super.apply(this, arguments)) || this);
         _this.optionContextUpdate = function () {
             _this.forceUpdate();
         };

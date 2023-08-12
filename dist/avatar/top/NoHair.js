@@ -1,4 +1,4 @@
-"use strict";
+
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = function (d, b) {
         extendStatics = Object.setPrototypeOf ||
@@ -21,7 +21,7 @@ var facialHair_1 = require("./facialHair");
 var NoHair = /** @class */ (function (_super) {
     __extends(NoHair, _super);
     function NoHair() {
-        var _this = _super !== null && _super.apply(this, arguments) || this;
+        var _this = ((_super !== null && _super.apply(this, arguments)) || this);
         _this.filter1 = lodash_1.uniqueId('react-filter-');
         _this.mask1 = lodash_1.uniqueId('react-mask-');
         _this.path1 = lodash_1.uniqueId('react-path-');

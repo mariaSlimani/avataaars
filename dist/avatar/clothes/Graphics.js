@@ -1,4 +1,4 @@
-"use strict";
+
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = function (d, b) {
         extendStatics = Object.setPrototypeOf ||
@@ -193,7 +193,7 @@ exports.Resist = Resist;
 var Bear = /** @class */ (function (_super) {
     __extends(Bear, _super);
     function Bear() {
-        var _this = _super !== null && _super.apply(this, arguments) || this;
+        var _this = ((_super !== null && _super.apply(this, arguments)) || this);
         _this.mask1 = lodash_1.uniqueId('react-mask-');
         _this.path1 = lodash_1.uniqueId('react-path-');
         return _this;

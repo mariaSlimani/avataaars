@@ -1,4 +1,4 @@
-"use strict";
+
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = function (d, b) {
         extendStatics = Object.setPrototypeOf ||
@@ -55,7 +55,7 @@ var options_1 = require("../../options");
 var Top = /** @class */ (function (_super) {
     __extends(Top, _super);
     function Top() {
-        return _super !== null && _super.apply(this, arguments) || this;
+        return (_super !== null && _super.apply(this, arguments)) || this;
     }
     Top.prototype.render = function () {
         var children = this.props.children;

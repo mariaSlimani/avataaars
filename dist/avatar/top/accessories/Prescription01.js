@@ -1,4 +1,4 @@
-"use strict";
+
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = function (d, b) {
         extendStatics = Object.setPrototypeOf ||
@@ -20,7 +20,7 @@ var lodash_1 = require("lodash");
 var Prescription01 = /** @class */ (function (_super) {
     __extends(Prescription01, _super);
     function Prescription01() {
-        var _this = _super !== null && _super.apply(this, arguments) || this;
+        var _this = ((_super !== null && _super.apply(this, arguments)) || this);
         _this.filter1 = lodash_1.uniqueId('react-filter-');
         return _this;
     }
