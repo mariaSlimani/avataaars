@@ -57,7 +57,7 @@ var Avatar = /** @class */ (function (_super) {
                             React.createElement("mask", { id: mask1, fill: "white" },
                                 React.createElement("use", { xlinkHref: '#' + path1 })),
                             React.createElement("use", { id: "Circle-Background", fill: "#E6E6E6", xlinkHref: '#' + path1 }),
-                            React.createElement("g", { id: "Color/Palette/Blue-01", mask: 'url(#' + mask1 + ')', fill: "#65C9FF" },
+                            React.createElement("g", { id: "Color/Palette/Blue-01", mask: 'url(#' + mask1 + ')', fill: "#4F8DC6" },
                                 React.createElement("rect", { id: "\uD83D\uDD8DColor", x: "0", y: "0", width: "240", height: "240" })))) : null,
                         circle ? (React.createElement("mask", { id: mask2, fill: "white" },
                             React.createElement("use", { xlinkHref: '#' + path2 }))) : null,
